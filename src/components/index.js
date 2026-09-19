@@ -1,0 +1,10 @@
+export {default as Header} from './Header/Header';
+export {default as SignUp} from './SignUp/SignUp';
+export {default as SignIn} from './SignIn/SignIn';
+export {default as Home} from './Home/Home';
+export {default as Products} from './Products/Products';
+export {default as Cart} from './Cart/Cart';
+export {default as DashBoard} from './DashBoard/DashBoard';
+export {default as LogOut} from './LogOut/LogOut';
+export {default as Favorites} from './Favorites/Favorites';
+export {default as Footer} from './Footer/Footer';
