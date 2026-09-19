@@ -12,12 +12,12 @@
 }
 .home h2{
     text-shadow: 1px 1px 10px yellow;
-    font-size: 40px;
+    font-size: 50px;
 }
 .home p{
     text-shadow: 1px 1px black,2px 2px 5px black;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 20px;
 }
 .home button{
     background-color: rgb(239, 239, 180);
@@ -33,4 +33,5 @@
     text-decoration: none;
     color:#238B98;
     font-weight: bold;
+    font-size: 18px;
 }
