@@ -1,0 +1,29 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px;
+    font-family: sans-serif;
+}
+header nav ul{
+    display: flex;
+    gap:15px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+header nav a{
+    color:white;
+    text-shadow: 1px 1px  black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+header nav a:hover{
+    transform: translateY(-10px);
+    border-bottom:solid white 2px;
+    padding-bottom: 5px;
+}
+header h1{
+    color:#238B98;
+    text-shadow: 1px 1px  black,1px 1px 10px white;
+}
