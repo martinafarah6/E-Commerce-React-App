@@ -1,0 +1,17 @@
+.dash{
+    background-color: white;
+    box-shadow: 2px 2px 10px white;
+    color: black;
+    width:500px;
+    margin: auto;
+    text-align: center;
+    border:solid white;
+    border-radius: 24px;
+}
+.dash .dashtitle{
+    text-shadow: 1px 1px 2px gray;
+    font-size: 30px;
+}
+.dash h3{
+    color:gray;
+}
