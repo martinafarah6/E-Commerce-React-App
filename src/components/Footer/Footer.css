@@ -1,0 +1,21 @@
+footer{
+    background-color: aliceblue;
+    margin-top: auto;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    height: 20px;
+}
+footer img{
+    border-radius: 25px;
+    border:yellow solid;
+    box-shadow: 1px 1px 5px yellow;
+}
+footer p{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 25px;
+    color:gray;
+}
