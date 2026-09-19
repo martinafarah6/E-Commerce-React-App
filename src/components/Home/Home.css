@@ -1,0 +1,36 @@
+.home{
+    margin:10px;
+    color: white;
+    max-width: 500px;
+    min-width: 400px;
+    text-align: center;
+    margin-left: auto;
+    color:white;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.home h2{
+    text-shadow: 1px 1px 10px yellow;
+    font-size: 40px;
+}
+.home p{
+    text-shadow: 1px 1px black,2px 2px 5px black;
+    font-weight: bold;
+    font-size: 13px;
+}
+.home button{
+    background-color: rgb(239, 239, 180);
+    box-shadow: 1px 1px 10px white;
+    border:solid yellow;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+.home button:hover{
+    transform: translateY(-5px);
+}
+.home .link{
+    text-decoration: none;
+    color:#238B98;
+    font-weight: bold;
+}
