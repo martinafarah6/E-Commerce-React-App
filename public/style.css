@@ -19,4 +19,18 @@ body {
     flex-direction: column;
 }
 
+@media (max-width: 768px) {
+    body {
+        background-position: center top;
+        background-attachment: scroll;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-size: auto 100%;
+        background-position: center top;
+        background-attachment: scroll;
+    }
+}
 
