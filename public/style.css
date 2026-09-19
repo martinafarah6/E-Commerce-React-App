@@ -19,45 +19,4 @@ body {
     flex-direction: column;
 }
 
-@media screen and (max-width: 768px) {
-  
-  footer {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    position: relative !important;
-    width: 100% !important;
-    margin-top: 30px !important;
-    clear: both !important;
-  }
 
-  footer nav ul {
-    display: flex !important;
-    justify-content: center !important;
-    flex-wrap: wrap !important;
-    padding: 0 !important;
-    gap: 10px !important;
-  }
-
-
-  .log, #sign, .dash {
-    width: 90% !important;
-    max-width: 400px !important;
-    margin: 20px auto !important;
-    box-sizing: border-box !important;
-    position: relative !important;
-  }
-
-
-  form div {
-    width: 100% !important;
-    margin-bottom: 15px !important;
-  }
-
-  form input[type="text"],
-  form input[type="email"],
-  form input[type="password"] {
-    width: 100% !important;
-    box-sizing: border-box !important;
-  }
-}
