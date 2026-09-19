@@ -32,8 +32,7 @@ function App()
     .catch(()=>{
         setError(true);
         setLoading(false);
-    })
-    },[])
+    })},[])
     return(
         <HashRouter>
             <Header/>
